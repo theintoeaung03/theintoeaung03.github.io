@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registeration</h1>
+    
+    <form action="request.php" method="get">
+        <label for="name">Student Name</label>
+    <input type="text" name="stu-name" id="name">
+    <br><br>
+    <label for="email">Student Email</label>
+    <input type="email" name="stu-email" id="email">
+    <br><br>
+    <label for="number">Student Password</label>
+    <input type="number" name="stu-password" id="number">
+    <br><br>
+    <label for="number">Student Phone</label>
+    <input type="number" name="stu-phone" id="number">
+    <br><br>
+    <label for="dob">Date Of Birth</label>
+    <input type="date" name="stu-dob" id="dob">
+    <br><br>
+    <label for="Passport">Passport Photo</label>
+    <input type="file" accept="image/*" name="stu-passport" id="Passport">
+    <br><br>
+    <label for="">Gender</label>
+    <br><br>
+    <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+    <br><br>
+    <label for="year">Year</label>
+    <select name="stu-year" id="year">
+        <option value="">Choise Year</option>
+        <option value="1">First year</option>
+        <option value="2">Second year</option>
+        <option value="3">Third year</option>
+        <option value="4">Fourth year</option>
+    </select>
+    <br><br>
+    <label for="">Hobbeies</label>
+    <br><br>
+    <input type="checkbox" name="travelling" value="Travelling"><label for="travelling">Travelling</label>
+    <input type="checkbox" name="reading" value="Reading"><label for="reading">reading</label>
+    <input type="checkbox" name="gaming" value="Gaming"><label for="gaming">Gaming</label>
+    <br><br>
+    <label for="address">Address</label>
+    <textarea name="stu-address" id="address" cols="50" rows="10"></textarea>
+    <br><br>
+    <input type="range" name="" id="">
+    <input type="color" name="" id="">
+    <input type="time" name="" id="">
+    <br><br>
+    <button type="submit">Save</button>
+    </form>
+   
+</body>
+</html>
