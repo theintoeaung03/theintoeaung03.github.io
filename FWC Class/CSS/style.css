@@ -56,3 +56,27 @@ a[title="google"] {
 .child > a {
   color: red;
 }
+
+/* pseudo selector */
+a:link {
+  color: red;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  counter-reset: yellow;
+}
+
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: brown;
+}
+
+:target {
+  color: red;
+  border: 1px solid blue;
+  letter-spacing: 10px;
+}
