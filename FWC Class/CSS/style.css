@@ -13,7 +13,7 @@ h1 {
 /* Universal selector */
 * {
   color: green;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 /* Tag selector/Element selector */
@@ -75,8 +75,73 @@ a:visited {
   color: brown;
 }
 
+/* target */
 :target {
   color: red;
   border: 1px solid blue;
   letter-spacing: 10px;
+}
+
+/* Border lesson */
+.borderone {
+  border: 7px solid red;
+}
+
+.bordertwo {
+  border-top: 5px solid red;
+  border-left: 5px dotted yellow;
+}
+
+.borderthree {
+  /* border-style: solid; */
+  /* all four  */
+  /* border-style: solid dotted; */
+  /* T&B / L&R */
+  /* border-style: dashed dotted solid; */
+  /* T / L&R / B */
+  border-style: dotted double solid dashed;
+  /* T / R / B / L  */
+}
+
+.borderfour {
+  border-width: 20px 15px 10px 5px;
+  border-style: dotted;
+  border-color: red yellow;
+}
+
+/* Margin */
+.margin {
+  border: 5px solid red;
+  /* margin: 40px */
+  margin-top: 100px;
+}
+
+/* padding */
+.padding {
+  border: 2px solid black;
+  /* padding: 40px 100px; */
+  padding-top: 100px;
+}
+
+/* layout */
+.inline {
+  border: 2px solid red;
+  /* width: 300px; */
+  display: inline-block;
+}
+
+.block {
+  border: 2px solid black;
+  /* width: 300px; */
+  display: inline-block;
+}
+
+/* float */
+.floatleft img {
+  width: 40%;
+  float: left;
+}
+.floatright img {
+  width: 40%;
+  float: right;
 }
