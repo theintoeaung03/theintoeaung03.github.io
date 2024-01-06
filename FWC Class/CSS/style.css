@@ -6,8 +6,8 @@ h1 {
   color: red;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  word-spacing: 30px;
+  letter-spacing: 5px;
+  word-spacing: 15px;
 }
 
 /* Universal selector */
@@ -144,4 +144,86 @@ a:visited {
 .floatright img {
   width: 40%;
   float: right;
+}
+
+/* grid  */
+
+.gridone div,
+.gridtwo div {
+  padding: 20px opx;
+  color: white;
+  text-align: center;
+}
+
+.gridone {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.gridtwo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column-gap: 20px; */
+  /* grid-row-gap: 30px; */
+  grid-gap: 30px;
+}
+
+.gridthree,
+.gridfour {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.rowadd {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.columadd {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* Position */
+
+.relative-parent {
+  border: 3px solid red;
+  width: 1000px;
+  height: 600px;
+}
+
+.position-relative {
+  border: 2px solid green;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.absolute-parent {
+  border: 3px solid blue;
+  width: 1000px;
+  height: 600px;
+  position: relative;
+}
+
+.position-absolute {
+  border: 3px solid yellow;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.fixed {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+}
+
+/* Font  */
+.online-font {
+  font-family: "Libre Baskerville", serif;
 }
