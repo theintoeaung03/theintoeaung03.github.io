@@ -227,3 +227,13 @@ a:visited {
 .online-font {
   font-family: "Libre Baskerville", serif;
 }
+
+/* offline font  */
+@font-face {
+  font-family: one;
+  src: url(../fontstyle/CormorantGaramond-BoldItalic.ttf);
+}
+
+.offline-font {
+  font-family: one;
+}
