@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <h1 class="text-center text-danger my-5">Accordion Lesson</h1>
+
+    <div class="accordion" id="AccordionParent">
+      <div class="accordion-item ">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-target="#AccordionOne" data-bs-toggle="collapse">One</button>
+        </h2>
+        <div id="AccordionOne" class="collapse accordion-collapse show" data-bs-parent="#AccordionParent">
+          <div class="accordion-body">
+            <p>
+              OneLorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              mollitia itaque quod quaerat totam ex veritatis omnis laborum iste
+              dicta ab ducimus vel perferendis dolorum, quam vitae cum eligendi
+              est?
+            </p>
+          </div>
+        </div>
+      </div>
+     <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-target="#AccordionTwo" data-bs-toggle="collapse">Two</button>
+        </h2>
+        <div id="AccordionTwo" class="collapse accordion-collapse" data-bs-parent="#AccordionParent">
+          <div class="accordion-body">
+            <p>
+              OneLorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              mollitia itaque quod quaerat totam ex veritatis omnis laborum iste
+              dicta ab ducimus vel perferendis dolorum, quam vitae cum eligendi
+              est?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-target="#AccordionThree" data-bs-toggle="collapse">Three</button>
+        </h2>
+        <div id="AccordionThree" class="collapse accordion-collapse" data-bs-parent="#AccordionParent">
+          <div class="accordion-body">
+            <p>
+              OneLorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              mollitia itaque quod quaerat totam ex veritatis omnis laborum iste
+              dicta ab ducimus vel perferendis dolorum, quam vitae cum eligendi
+              est?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
