@@ -1,0 +1,61 @@
+/* start contact page  */
+.contact-body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../image1/contact4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  color: white;
+}
+.contact h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.contact > p {
+  text-align: center;
+  line-height: 25px;
+}
+/* end contact page  */
+.contact-grid {
+  margin: 30px 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.contact-address span {
+  position: relative;
+  top: -50px;
+  left: 100px;
+  line-height: 25px;
+}
+
+.address-info {
+  font-size: x-large;
+  color: blue;
+}
+
+.contact-grid form {
+  padding: 10px;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  left: 150px;
+}
+.contact-form {
+  color: red;
+  line-height: 30px;
+}
+.contact-form button {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 300px;
+  height: 25px;
+}

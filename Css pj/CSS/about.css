@@ -1,0 +1,54 @@
+body {
+  border: 5px solid green;
+  margin: 70px;
+}
+.about-page {
+  background-color: white;
+}
+/* start nav */
+
+.nav-item li {
+  display: inline-block;
+  padding: 10px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+
+li:first-child {
+  margin-left: 900px;
+}
+.nav a:hover {
+  font-weight: bolder;
+}
+/* end nav  */
+/* start about  */
+.about {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.about img {
+  width: 400px;
+  height: 480px;
+  margin-bottom: 20px;
+}
+.about-us {
+  position: relative;
+  top: 10%;
+  left: 200px;
+}
+.about-us span {
+  font-size: 8ch;
+  color: blue;
+}
+.about-us p {
+  line-height: 30px;
+}
+.about-us button {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  margin-top: 100px;
+  padding: 5px;
+}
