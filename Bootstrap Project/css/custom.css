@@ -1,0 +1,40 @@
+@font-face {
+    font-family: domine;
+    src: url(../domine/Domine-Regular.ttf);
+}
+*{
+    font-family: domine;
+}
+.logo-img{
+    width: 120px;
+    height: 90px;
+}
+.navbar-hover:hover{
+    color: red !important;
+}
+.dropdown-toggle::after {
+    margin-left: .5em !important;
+}
+
+.cart-noti{
+    position: relative;
+    top: -45px;
+    left: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 5px;
+}
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #f00 !important;
+}
+
+.carousel_text{
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    background-color: rgba(20, 35, 20, .5);
+    padding: 40px;
+    border-radius: 5px;
+    color: white;
+}

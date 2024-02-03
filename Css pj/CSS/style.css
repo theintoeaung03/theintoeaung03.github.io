@@ -108,7 +108,7 @@
 .division {
   width: 80px;
   margin-left: 170px;
-  border: 2px solid blue;
+  border: 2px solid red;
 }
 .promotion {
   display: grid;
